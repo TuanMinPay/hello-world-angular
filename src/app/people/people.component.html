@@ -1,0 +1,7 @@
+<!-- this is the new syntax for ng-repeat -->
+<h1>My colleagues</h1>
+<ul>
+    <li *ngFor="let person of people">
+        {{person.name}} - height: {{person.height}} - weight: {{person.weight}}
+    </li>
+</ul>
